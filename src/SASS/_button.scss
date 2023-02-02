@@ -1,0 +1,8 @@
+@use "./color" as *;
+@use "./fonts" as *;
+
+.NavBtn {
+  background-color: $btn;
+  border-radius: 0.3125rem;
+  @include NavFont;
+}

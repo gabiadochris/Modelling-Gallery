@@ -1,0 +1,67 @@
+@use "./fonts" as *;
+@use "./color" as *;
+
+header {
+  li {
+    @include NavFont;
+    color: black;
+  }
+  .Logo {
+    @include Logo;
+  }
+
+  //   Hero section
+  .BgImage {
+    background-image: url("../images/HomeImg/hero.png");
+    height: 90vh;
+  }
+
+  .HeroText {
+    @include HeroText;
+  }
+  .SubHeroText {
+    @include SubHeroText;
+  }
+}
+
+//   About Us Section
+.H1Font {
+  @include H1Font;
+}
+.PFont {
+  @include PFont;
+}
+
+// Gallery Section
+.BgColor {
+  background-color: $BgColor;
+  p {
+    color: $PColor;
+  }
+  .galcolor {
+    color: rgb(255, 252, 252);
+  }
+  .Pagination {
+    color: $Pagination;
+  }
+}
+
+// Colaboration setion
+.ColbgImage {
+  background-image: url("../images/HomeImg/section1png.png");
+  height: 85vh;
+
+  .TransBg {
+    background-color: $TransBg;
+    height: 63vh;
+    width: 790px;
+  }
+}
+
+// Footer section
+.FooterBg {
+  background-color: $footer;
+  .MutedText {
+    @include MutedText;
+  }
+}
