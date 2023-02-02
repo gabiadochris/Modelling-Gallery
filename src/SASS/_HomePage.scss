@@ -14,6 +14,23 @@ header {
   .BgImage {
     background-image: url("../images/HomeImg/hero.png");
     height: 90vh;
+    animation-name: HeroImage;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes HeroImage {
+    15% {
+      background-image: url("../images/HomeImg/hero.png");
+    }
+    25% {
+      background-image: url("../images/HomeImg/hero3.png");
+    }
+    50% {
+      background-image: url("../images/HomeImg/hero2.png");
+    }
+    100% {
+      background-image: url("../images/HomeImg/hero3.png");
+    }
   }
 
   .HeroText {
@@ -50,11 +67,28 @@ header {
 .ColbgImage {
   background-image: url("../images/HomeImg/section1png.png");
   height: 85vh;
+  animation-name: Modelling;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
 
   .TransBg {
     background-color: $TransBg;
     height: 63vh;
     width: 790px;
+  }
+}
+@keyframes Modelling {
+  15% {
+    background-image: url("../images/HomeImg/section1png.png");
+  }
+  25% {
+    background-image: url("../images/HomeImg/section2.png");
+  }
+  50% {
+    background-image: url("../images/HomeImg/section2.png");
+  }
+  100% {
+    background-image: url("../images/HomeImg/section1png.png");
   }
 }
 
