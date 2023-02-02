@@ -12,7 +12,6 @@ header {
 
   //   Hero section
   .BgImage {
-    background-image: url("../images/HomeImg/hero.png");
     height: 90vh;
     animation-name: HeroImage;
     animation-duration: 12s;
@@ -65,10 +64,9 @@ header {
 
 // Colaboration setion
 .ColbgImage {
-  background-image: url("../images/HomeImg/section1png.png");
   height: 85vh;
   animation-name: Modelling;
-  animation-duration: 12s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
 
   .TransBg {
@@ -85,10 +83,10 @@ header {
     background-image: url("../images/HomeImg/section2.png");
   }
   50% {
-    background-image: url("../images/HomeImg/section2.png");
+    background-image: url("../images/HomeImg/section1png.png");
   }
   100% {
-    background-image: url("../images/HomeImg/section1png.png");
+    background-image: url("../images/HomeImg/section3.png");
   }
 }
 

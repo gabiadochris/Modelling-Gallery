@@ -22,7 +22,6 @@ header .Logo {
   font-size: 1.4rem !important;
 }
 header .BgImage {
-  background-image: url("../images/HomeImg/hero.png");
   height: 90vh;
   -webkit-animation-name: HeroImage;
           animation-name: HeroImage;
@@ -97,12 +96,11 @@ header .SubHeroText {
 }
 
 .ColbgImage {
-  background-image: url("../images/HomeImg/section1png.png");
   height: 85vh;
   -webkit-animation-name: Modelling;
           animation-name: Modelling;
-  -webkit-animation-duration: 12s;
-          animation-duration: 12s;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
@@ -120,10 +118,10 @@ header .SubHeroText {
     background-image: url("../images/HomeImg/section2.png");
   }
   50% {
-    background-image: url("../images/HomeImg/section2.png");
+    background-image: url("../images/HomeImg/section1png.png");
   }
   100% {
-    background-image: url("../images/HomeImg/section1png.png");
+    background-image: url("../images/HomeImg/section3.png");
   }
 }
 
@@ -135,10 +133,10 @@ header .SubHeroText {
     background-image: url("../images/HomeImg/section2.png");
   }
   50% {
-    background-image: url("../images/HomeImg/section2.png");
+    background-image: url("../images/HomeImg/section1png.png");
   }
   100% {
-    background-image: url("../images/HomeImg/section1png.png");
+    background-image: url("../images/HomeImg/section3.png");
   }
 }
 .FooterBg {
